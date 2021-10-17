@@ -1,5 +1,5 @@
-# Javascript Project Template
-A simple JS Class to demonstrate a "roomba"
+# Roomba
+A contrived "roomba" example to demonstrate usage of JS Classes
 
 Getting Started
 
