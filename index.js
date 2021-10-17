@@ -35,8 +35,13 @@ class Roomba {
 
 const myRoomba = new Roomba(0, 2);
 
+console.log(`Roomba starting with current direction "${myRoomba.dir}" and degrees "${myRoomba.deg}"`);
+console.log('Turn Right by 100');
+console.log('Turn Right by 55');
 myRoomba.turn(100);
 myRoomba.turn(55);
 console.log('myRoomba.deg: ', myRoomba.deg);
+console.log('Turn Left by 10');
 myRoomba.turn(10, 'left')
-console.log('myRoomba.dir: ', myRoomba.dir);
+console.log('myRoomba.deg: ', myRoomba.deg);
+console.log('(Default) myRoomba.dir: ', myRoomba.dir);
